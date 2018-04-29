@@ -1,0 +1,24 @@
+.add-book-button {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+}
+
+@media screen and (max-width: 1024px){
+  .add-book-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+  }
+}
+.category-row:first-child {
+  margin-top: 30px;
+}
+
+.category-segment {
+  width: 100%;
+}
+
+.ui.grid .column .book-column {
+  margin: 20px 0;
+}
